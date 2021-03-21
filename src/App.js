@@ -1,14 +1,12 @@
 import './App.css';
+import Header from './Layout/Header';
+import MainComponent from './Layout/Main';
 
 function App() {
   return (
     <div className="container vh-100 d-flex flex-column">
-      <header>DOG TRANSLATOR</header>
-      <main class="flex-grow-1">
-        <div className="screen">SCREEN</div>
-        <div className="controls">CONTROLS</div>
-        <div className="speaker">SPEAKER</div>
-      </main>
+      <Header />
+      <MainComponent />
     </div>
   );
 }
